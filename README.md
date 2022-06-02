@@ -1,6 +1,7 @@
 # Module-4-Challenge School District Analysis
 # Overview of Project #
-The purpose of this Project is to analyze and audit the Election Outcome for a recent local congressional election, to determine the winning candidate and the largest voter turnout based on county. The analysis required the following data to be presented:
+The purpose of this Project is to further analyze the School district report to determine academic dishonesty of grades for Thomas High School. By specifying reading and math grades for grade ninth.So that the school Board can upload proper state-testing standards.
+The analysis required the following data to be presented:
 1. The total number of votes cast.
 2. The list of candidates in the election.
 3. The total number of votes received by each candidate.
