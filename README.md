@@ -18,8 +18,12 @@ Software: Python, Anaconda, Jupyter Notebook <br>
 Library Modules: Pandas, Numpy
 
 # Results #
-The analysis of the election shows that:
-- There were 369,711 votes cast in the election.
+The analysis of the School_District_Analysis shows that:
+1)Replace the 9th grade reading and math scores at Thomas High School with NaN
+  - The data is replace by NaN's for only 9th grade and the entire data is intact.
+<br>
+![NaN](/Screenshots/ElectionResultsConsole.png)   
+1) District Summary
 - The county results were:
   - Jefferson County received a total of 38,855 votes, which accounts for 10.5% of the total votes. 
   - Denver county received a total of 306,055 votes, which accounts for 82.8% of the total votes. 
