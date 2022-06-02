@@ -1,8 +1,8 @@
 # Module-4-Challenge School District Analysis
 # Overview of Project #
-The purpose of this Project is to further analyze the School district report to determine academic dishonesty of grades for Thomas High School. By specifying reading and math grades for grade ninth.So that the school Board can upload proper state-testing standards.
+The purpose of this Project is to further analyze the School district report to determine academic dishonesty of grades for Thomas High School. By specifying reading and math grades for grade ninth. So that the school Board can upload proper state-testing standards.
 The analysis required the following data to be presented:
-1. The total number of votes cast.
+1. To replace the math scores and reading scores with NaN of Ninth grade for Thomas High School .
 2. The list of candidates in the election.
 3. The total number of votes received by each candidate.
 4. The total number of voter turnout for each county.
@@ -11,8 +11,8 @@ The analysis required the following data to be presented:
 7. The county with the highest turnout.
 
 # Resources #
-Data Source: election_results.csv <br>
-Software: Python 3.10, Visual Studio Code, Excel
+Data Source: students_complete.csv, schools_complete.csv  <br>
+Software: Python, Anaconda, Jupyter Notebook, Pandas, Numpy
 
 # Election Audit Results #
 The analysis of the election shows that:
