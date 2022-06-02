@@ -1,20 +1,23 @@
 # Module-4-Challenge School District Analysis
 # Overview of Project #
-The purpose of this Project is to further analyze the School district report to determine academic dishonesty of grades for Thomas High School. By specifying reading and math grades for grade ninth. So that the school Board can upload proper state-testing standards.
+The purpose of this Project is to analyze the School district's report to determine the academic dishonesty of grades for 9th Grade Students of Thomas High School, for Maths and Reading Scores. We are going to determine this by replacing the Maths and Reading Score for the above with averages from Grade 10-12. We will then compare this with the initial unmodified results. 
+
 The analysis required the following data to be presented:
-1. To replace the math scores and reading scores with NaN of Ninth grade for Thomas High School .
-2. The list of candidates in the election.
-3. The total number of votes received by each candidate.
-4. The total number of voter turnout for each county.
-5. The percentage of votes for each candidate.
-6. The winner of the election based on popular vote. 
-7. The county with the highest turnout.
+1. To replace the math scores and reading scores with NaN of Ninth grade for Thomas High School.
+2. Recreate the following metrics:
+  - The district summary.
+  - The school summary.
+  - The top 5 and bottom 5 performing schools, based on the overall passing rate.
+  - The average math score for each grade level from each school.
+  - The average reading score for each grade level from each school.
+  - The average reading score for each grade level from each school.
 
 # Resources #
 Data Source: students_complete.csv, schools_complete.csv  <br>
-Software: Python, Anaconda, Jupyter Notebook, Pandas, Numpy
+Software: Python, Anaconda, Jupyter Notebook
+Library Modules: Pandas, Numpy
 
-# Election Audit Results #
+# Results #
 The analysis of the election shows that:
 - There were 369,711 votes cast in the election.
 - The county results were:
