@@ -22,7 +22,7 @@ The analysis of the School_District_Analysis shows that:
 1. Replace the 9th grade reading and math scores at Thomas High School with NaN
   - The data is replace by NaN's for only 9th grade and the entire data is intact.
 <br>
-![NaN](/Screenshots/student%20data.png)  
+![NaN](/Screenshots/StudentData.png)  
 <br><br>
 1. District Summary
 - The county results were:
