@@ -14,7 +14,7 @@ The analysis required the following data to be presented:
 
 # Resources #
 Data Source: students_complete.csv, schools_complete.csv  <br>
-Software: Python, Anaconda, Jupyter Notebook
+Software: Python, Anaconda, Jupyter Notebook <br>
 Library Modules: Pandas, Numpy
 
 # Results #
