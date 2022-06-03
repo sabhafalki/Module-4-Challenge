@@ -5,12 +5,12 @@ The purpose of this Project is to analyze the School district's report to determ
 The analysis required the following data to be presented:
 1. To replace the math scores and reading scores with NaN of Ninth grade for Thomas High School.
 2. Recreate the following metrics:
-  - The district summary.
-  - The school summary.
-  - The top 5 and bottom 5 performing schools, based on the overall passing rate.
-  - The average math score for each grade level from each school.
-  - The average reading score for each grade level from each school.
-  - The average reading score for each grade level from each school.
+    - The district summary.
+    - The school summary.
+    - The top 5 and bottom 5 performing schools, based on the overall passing rate.
+    - The average math score for each grade level from each school.
+    - The average reading score for each grade level from each school.
+    - The average reading score for each grade level from each school.
 
 # Resources #
 Data Source: students_complete.csv, schools_complete.csv  <br>
