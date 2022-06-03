@@ -18,25 +18,39 @@ Software: Python, Anaconda, Jupyter Notebook <br>
 Library Modules: Pandas, Numpy
 
 # Results #
-The analysis of the School_District_Analysis shows that:
-- District Summary Overview (i.e. Effects of Cleaning Up Data)
+We were able to conclude the following from our analysis:
+- District Summary Overview (i.e. Effects of Cleaning Up Data) <br>
+The Updated Summary (i.e. cleand up data) indicates the following:
+  - Average Math Score dropped by 0.01
+  - Average Reading Score didn't change
+  - Passing Math % dropped by 0.2%
+  - Passing Reading % dropped by 0.3%
+  - Overall Passing Percentage dropped by 0.1%
+<br>
+The effect of cleaning up the code had nominal impact on the outcome. 
 
 ![DistrictSummaryOriginal](/Screenshots/DistrictSummaryOriginal.png)
 ![DistrictSummaryUpdated](/Screenshots/DistrictSummaryUpdated.png)
 <br><br>
 
+- School Summary Overview (i.e. Effects of Cleaning Up Data) <br>
+The Updated Summary indicates the following for Thomas High School:
+  - Average Math Score dropped by 0.1
+  - Average Reading Score dropped by 0.2
+  - Passing Math % dropped by 0.1%
+  - Passing Reading % dropped by 0.2%
+  - Overall Passing Percentage dropped by 0.3%
+<br>
+The effect of cleaning up the code had nominal impact on the outcome. 
 
-- School Summary Overview (i.e. Effects of Cleaning Up Data)
-
-![OriginalSchoolSummary](/Screenshots/OriginalSchoolSummary.png)
-![CleanSchoolSummary](/Screenshots/CleanSchoolSummary.png)
+![SchoolSummaryOriginal](/Screenshots/SchoolSummaryOriginal.png)
+![SchoolSummaryUpdated](/Screenshots/SchoolSummaryUpdated.png)
 <br><br>
 
-- Thomas High School's Performance after Cleaning Up Data
+- Thomas High School's Performance after Cleaning Up Data (i.e. Replacing 9th Graders' Math and Reading Scores) <br>
+After cleaning up the data, Thomas High School is second highest school after ranking based on Overall Passing Percentage. The impact of the changes were nominal.
 
-
-![OriginalSchoolRank](/Screenshots/OriginalSchoolRank.png)
-![CleanSchoolRank](/Screenshots/CleanSchoolRank.png)
+![SchoolSummaryUpdated](/Screenshots/SchoolSummaryUpdated.png)
 <br><br>
 
 - Impacts of Replacing Ninth-Grade Scores for Thomas High School
