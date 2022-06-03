@@ -55,6 +55,7 @@ After cleaning up the data, Thomas High School is second highest school after ra
 
 - Impacts of Replacing Ninth-Grade Scores for Thomas High School
   - Math and Reading Scores
+  
   - Scores by School Spending
   - Scores by School Size
   - Scores by School Type
@@ -67,21 +68,13 @@ After cleaning up the data, Thomas High School is second highest school after ra
 ![PythonCode](/Screenshots/StudentData.png)
 <br><br>
 
-1. District Summary
-- The county results were:
-  - Jefferson County received a total of 38,855 votes, which accounts for 10.5% of the total votes. 
-  - Denver county received a total of 306,055 votes, which accounts for 82.8% of the total votes. 
-  - Arapahoe county received a total of 24,801 votes, which accounts for 6.7% of the total votes.
 
 
 
 
 
 
-- The Screenshots for the console and text file are given below:<br>
-![PythonCode](/Screenshots/ElectionResultsConsole.png)
-![PythonCode](/Screenshots/ElectionResultsText.png)
-<br>
+
 
 # Election Audit Summary #
 ## Script Usage ##
