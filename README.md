@@ -48,18 +48,57 @@ The effect of cleaning up the code had nominal impact on the outcome.
 <br><br>
 
 - Thomas High School's Performance after Cleaning Up Data (i.e. Replacing 9th Graders' Math and Reading Scores) <br>
-After cleaning up the data, Thomas High School is second highest school after ranking based on Overall Passing Percentage. The impact of the changes were nominal.
+After cleaning up the data, Thomas High School is second highest school after ranking based on Overall Passing Percentage. The impact of the changes were nominal to impact the outcome.
 
 ![SchoolSummaryUpdated](/Screenshots/SchoolSummaryUpdated.png)
 <br><br>
 
-- Impacts of Replacing Ninth-Grade Scores for Thomas High School
-  - Math and Reading Scores
+- Impacts of Replacing Ninth-Grade Scores for Thomas High School <br>
+  - Math and Reading Scores <br>
+  The Math and Reading Scores for 9th Grade were Nan (i.e. Null). The rest of the data was unimpacted. 
   
-  - Scores by School Spending
-  - Scores by School Size
-  - Scores by School Type
+  ![ScoresByGradeOriginal](/Screenshots/ScoresByGradeOriginal.png)
+  ![ScoresByGradeUpdated](/Screenshots/ScoresByGradeUpdated.png)
+  <br><br>
+  
+  - Scores by School Spending <br>
+  Thomas High School falls in the Range of "$630-$644", and hence the following fields were impacted:
+    - Average Match Score dropped by 0.01
+    - Average Reading Score dropped by 0.01
+    - Passing Math Percentage dropped by 0.02%
+    - Passing Reading Percentage dropped by 0.08%
+    - Overall Percentage dropped by 0.1
+    The changes to the outcoem were nominal. 
+  
+  ![SpendingSummaryOriginal](/Screenshots/SpendingSummaryOriginal.png)
+  ![SpendingSummaryUpdated](/Screenshots/SpendingSummaryUpdated.png)
+  <br><br>
+  
+  - Scores by School Size <br>
+  Thomas High School falls in the "Medium - 1000-2000" Range, hence the other two Ranges were not impacted. The following could be observed for the Medium Range:
+    - Average Match Score dropped by 0.01
+    - Average Reading Score dropped by 0.01
+    - Passing Math Percentage dropped by 0.01%
+    - Passing Reading Percentage dropped by 0.06%
+    - Overall Percentage dropped by 0.1
+    The changes to the outcoem were nominal.   
 
+  ![SchoolSizeSummaryOriginal](/Screenshots/SchoolSizeSummaryOriginal.png)
+  ![SchoolSizeSummaryUpdated](/Screenshots/SchoolSizeSummaryUpdated.png)
+  <br><br>
+
+  - Scores by School Type
+  Thomas High School is a Charter Type of Schools, and hence District School overview was not impacted. The following were noticed for Charter Type:
+    - Average Match Score dropped by 0.01
+    - Average Reading Score dropped by 0.01
+    - Passing Math Percentage dropped by 0.01%
+    - Passing Reading Percentage dropped by 0.03%
+    - Overall Percentage dropped by 0.1
+    The changes to the outcoem were nominal. 
+  
+  ![SchoolTypeOriginal](/Screenshots/SchoolTypeOriginal.png)
+  ![SchoolTypeUpdated](/Screenshots/SchoolTypeUpdated.png)
+  <br><br>
 
 
 
