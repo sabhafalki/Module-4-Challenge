@@ -19,6 +19,34 @@ Library Modules: Pandas, Numpy
 
 # Results #
 The analysis of the School_District_Analysis shows that:
+- District Summary Overview (i.e. Effects of Cleaning Up Data)
+
+![OriginalDistrictSummary](/Screenshots/OriginalDistrictSummary.png)
+![CleanDistrictSummary](/Screenshots/CleanDistrictSummary.png)
+<br><br>
+
+- School Summary Overview (i.e. Effects of Cleaning Up Data)
+
+![OriginalSchoolSummary](/Screenshots/OriginalSchoolSummary.png)
+![CleanSchoolSummary](/Screenshots/CleanSchoolSummary.png)
+<br><br>
+
+- Thomas High School's Performance after Cleaning Up Data
+
+
+![OriginalSchoolRank](/Screenshots/OriginalSchoolRank.png)
+![CleanSchoolRank](/Screenshots/CleanSchoolRank.png)
+<br><br>
+
+- Impacts of Replacing Ninth-Grade Scores for Thomas High School
+  - Math and Reading Scores
+  - Scores by School Spending
+  - Scores by School Size
+  - Scores by School Type
+
+
+
+
 1. Replace the 9th grade reading and math scores at Thomas High School with NaN
   - The data is replace by NaN's for only 9th grade and the entire data is intact.
 ![PythonCode](/Screenshots/StudentData.png)
@@ -30,15 +58,10 @@ The analysis of the School_District_Analysis shows that:
   - Denver county received a total of 306,055 votes, which accounts for 82.8% of the total votes. 
   - Arapahoe county received a total of 24,801 votes, which accounts for 6.7% of the total votes.
 
-- The county with the largest voter turnout was: Denver 
 
-- The candidates results were:
-  - Charles Casper Stockham received a total of 85,213 votes, which accunts for 23% of the total votes.
-  - Diana DeGette received a total of 272,892 votes, which accounts for 73.8% of the total votes.
-  - Raymon Anthony Doane received a total of 11,606 votes, which accounts for 3.1% of the total votes.
 
-- The winner of the election was:
-  - Diana DeGette, who received a total of 272,892 votes, which is 73.8% of the total votes.
+
+
 
 - The Screenshots for the console and text file are given below:<br>
 ![PythonCode](/Screenshots/ElectionResultsConsole.png)
