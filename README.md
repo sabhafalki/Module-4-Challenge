@@ -21,9 +21,10 @@ Library Modules: Pandas, Numpy
 The analysis of the School_District_Analysis shows that:
 - District Summary Overview (i.e. Effects of Cleaning Up Data)
 
-![OriginalDistrictSummary](/Screenshots/OriginalDistrictSummary.png)
-![CleanDistrictSummary](/Screenshots/CleanDistrictSummary.png)
+![DistrictSummaryOriginal](/Screenshots/DistrictSummaryOriginal.png)
+![DistrictSummaryUpdated](/Screenshots/DistrictSummaryUpdated.png)
 <br><br>
+
 
 - School Summary Overview (i.e. Effects of Cleaning Up Data)
 
