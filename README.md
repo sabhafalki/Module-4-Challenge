@@ -100,45 +100,14 @@ After cleaning up the data, Thomas High School is second highest school after ra
   ![SchoolTypeUpdated](/Screenshots/SchoolTypeUpdated.png)
   <br><br>
 
-
-
-1. Replace the 9th grade reading and math scores at Thomas High School with NaN
-  - The data is replace by NaN's for only 9th grade and the entire data is intact.
-![PythonCode](/Screenshots/StudentData.png)
-<br><br>
-
-
-
-
-
-
-
-
-
-# Election Audit Summary #
-## Script Usage ##
-The script uses the data from the file "election_results.csv". The script can be reused for any other elections, provided the following is changed:
-1. The Data File: The "file_to_load" variable stores the path and filename of the data file. This must be changed in order to reuse the script.
-2. The Output File: The "file_to_save" variable stores the path and filename of the output/result file. This can be changed to store the output elsewhere. 
-
-![PythonCode](/Screenshots/PythonCode.png)
+# Summary of Outcome #
+The following could be observed about the outcome after modifying the data:
+1. Since Thomas High School is a Charter Type of School, the District Summary outcome was effected. However, the effect was nominal. 
+2. Since Thomas High School is a Mid Size School (1000-2000), the Size Summary outcome for Mid Size School was effected. However, the effect was nominal. 
+3. Since Thomas High School fell under the $630-$644 Spending Range, this outcome was also effected. However, the effect was nominal. 
+4. The Rank of the school was unaffected even after NaNs were applied to Grade 9 Reading and Math Scores
 <br>
-
-## Script for Other Scenarious ##
-THe script can also be reused for other types of elections, such as
-1. Provincial and Territorial Elections: The script can be reused for such elections, but along with the changes mentioned above, the text fields will also need to be updated (i.e. Country text must be replaced by Provincial).
-2. Process of Bill Passing: The script can also be used for voting on certain Bills in the parliment. Again the text fields will need to be modified to accomodate this. 
 
 # Further Analysis #
-## Code Enhancement ##
-1. The code can be enhanced so that the Data Source File (i.e. "file_to_load") and the Output File Location (i.e. "file_to_save") are read from the user on execution (i.e. by using the "input()" python function).
-2. Error handling can be introduced so that the code checks for a valid Data Source File (i.e. "file_to_load") and for a valid Output File Location (i.e. "file_to_save").
-
-## Additional Analyzation ##
-1. Graphs can be created to analyze the relation between the total number of voters and the outcome.
-2. The script does not detect duplicate votes (i.e. duplicate voting ID, which should not be allowed).
-3. It appears that the Denver Country had an impact on the overall votes, and thereby contributing to Diana's Win.
-
-![CountryVOtes](/Screenshots/TotalVotesByCountry.png)
-![CandidateVotes](/Screenshots/TotalVotesByCandidate.png)
-<br>
+1. Graphs can be built to visualize the outcome much better
+2. Further analysis can be conducted to understand the impact on the number of students at THomas High School in Grade 9. 
